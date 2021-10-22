@@ -1,14 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-	int year;
-	cin>>year;
-	
-	if (year % 4 == 0 && year % 100 != 0)
-		cout<<year<<" was a leap year";
+int main(int argc, char* argv[]){
+
+	if (argv[1] % 4 == 0 && argv[1] % 100 != 0)
+		cout<<argv[1]<<" was a leap year";
 	else
-		cout<<year<<" was not a leap year";
+		cout<<argv[1]<<" was not a leap year";
 
 	return 0;
 }
