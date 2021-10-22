@@ -6,7 +6,7 @@ int main(){
 	int odd = 0 , even = 0;
 	
 	
-	cout<<"Please enter 4 positive integers, seperated by a space: "<< endl;
+	cout<<"Please enter 4 positive integers, separated by a space: "<< endl;
 	cin>>a>>b>>c>>d;
 	
 	if(a % 2 == 0)
